@@ -1,0 +1,37 @@
+.contactList {
+  list-style: none;
+  padding: 0;
+}
+.contactListItem {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: border-bottom 0.3s ease;
+}
+
+.contactlistitem:hover {
+  border-bottom: 3px solid darkblue;
+}
+
+.contactP {
+  margin: 0;
+}
+
+.contactBtn {
+  background-color: darkblue;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactBtn:hover {
+  background-color: blue;
+}
